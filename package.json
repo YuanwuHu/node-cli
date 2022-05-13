@@ -1,0 +1,26 @@
+{
+  "name": "sence-cli",
+  "version": "1.0.0",
+  "description": "cli",
+  "main": "index.js",
+  "bin": {
+    "sence": "./bin/sence.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "eric.hu",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.1",
+    "clear": "^0.1.0",
+    "commander": "^8.2.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "handlebars": "^4.7.7",
+    "open": "^8.4.0",
+    "ora": "^4.1.0",
+    "watch": "^1.0.2"
+  }
+}
